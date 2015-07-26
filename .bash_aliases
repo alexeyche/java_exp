@@ -1,0 +1,1 @@
+/home/alexeyche/prog/alexeyche-junk/.bash_aliases

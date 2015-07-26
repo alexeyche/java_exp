@@ -1,0 +1,11 @@
+let g:netrw_dirhistmax  =10
+let g:netrw_dirhist_cnt =9
+let g:netrw_dirhist_1='/home/alexeyche/prog/alexeyche-junk/cns/cpp/scripts/spear/structure'
+let g:netrw_dirhist_2='/home/alexeyche/prog/alexeyche-junk/cns/cpp/scripts/cma/structure'
+let g:netrw_dirhist_3='/home/alexeyche/distr/qwt-6.1/examples'
+let g:netrw_dirhist_4='/home/alexeyche/distr/qwt-6.1/examples/animation'
+let g:netrw_dirhist_5='/home/alexeyche/distr/qwt-6.1/examples'
+let g:netrw_dirhist_6='/home/alexeyche/distr/qwt-6.1/examples/realtime'
+let g:netrw_dirhist_7='/home/alexeyche/distr/qwt-6.1/examples'
+let g:netrw_dirhist_8='/home/alexeyche/distr/qwt-6.1/examples/realtime'
+let g:netrw_dirhist_9='/home/alexeyche/Downloads/latex2rtf-2.3.8/doc/web'
