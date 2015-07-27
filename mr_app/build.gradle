@@ -1,0 +1,33 @@
+repositories {
+    mavenCentral()
+}
+
+apply plugin: 'java'
+apply plugin: 'application'
+
+mainClassName = 'com.mr_app.App'
+
+run {
+  if ( project.hasProperty("appArgs") ) {
+    args Eval.me(appArgs)
+  }
+}
+
+dependencies {
+    compile 'org.jsoup:jsoup:1.8.2'
+    compile 'org.glassfish.jersey.containers:jersey-container-grizzly2-http:2.19'
+    compile 'org.codehaus.jettison:jettison:1.1'
+    compile 'org.glassfish.jersey.media:jersey-media-json-jettison:2.19'
+
+    compile 'javax.ws.rs:javax.ws.rs-api:2.0.1'
+    compile 'org.codehaus.jackson:jackson-core-asl:1.1.0'
+}
+
+test {
+  testLogging {
+    exceptionFormat = 'full'
+  }
+}
+
+
+
